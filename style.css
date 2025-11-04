@@ -1,12 +1,13 @@
 body {
     font-family: Helvetica, sans-serif;
-    line-height: 1.7; /* Increases spacing between lines */
+    line-height: 1.7; 
     margin: 20px;
+    font-size: 1.125em;
 }
 
 .education-block {
-    margin-bottom: 5px; /* Adds space between education blocks */
-    padding-bottom: 5px; /* Extra padding inside blocks */
+    margin-bottom: 5px; 
+    padding-bottom: 5px;
 }
 
 .header {
@@ -43,4 +44,34 @@ ul li {
     padding: 0;
     display: flex;
     gap: 15px;
+}
+
+ol {
+    margin-top: 5px;
+    padding-left: 35px;
+}
+
+ol li {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+ol li h3 {
+    font-size: 1.2em;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+.toc-img {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin: 10px; 
+    padding: 10px;
+    background: #f9f9f9; 
+}
+
+h1, h2, h3 {
+    margin-top: 7px;
+    margin-bottom: 7px; 
 }
