@@ -50,15 +50,15 @@ body {
 	width: 40px;
 }
 
-.author {
-	color: #080808;
-	font-family: Tahoma;
+.author{
+	color:#080808;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .venue {
 	color: #080808;
 	font-style: italic;
-	font-family: Tahoma;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .article {
