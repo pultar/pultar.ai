@@ -1,7 +1,7 @@
 body {
 	line-height: 1.5;
 	margin: 2% 10% 2% 10%;
-	font-family: Tahoma;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .header {
@@ -109,6 +109,9 @@ a:visited {
 		margin: 2% 5% 2% 5%;
 	}
 	.myicon {
+		float: none;
+		display: block;
+		margin: 0 0 10px 0;
 		width: 120px;
 	}
 }
