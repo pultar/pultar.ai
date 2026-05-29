@@ -1,0 +1,98 @@
+body {
+	line-height: 1.5;
+	margin: 2% 10% 2% 10%;
+	font-family: Tahoma;
+}
+
+.header {
+	text-align: center;
+	font-size: 22px;
+}
+
+.myicon {
+	width: 150;
+	float:left;
+	margin-right: 15px;
+}
+
+.sectiontitle {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sectioncontent {
+	font-size: 17px;
+	font-weight: normal;
+
+}
+
+.date {
+	font-size: 15px;
+	font-style: italic;
+}
+
+.me {
+	font-weight: bold;
+	text-decoration:underline
+}
+
+.email {
+	font-size: 14px;
+}
+
+.appicon {
+	width: 25;
+}
+
+.new{
+	height: 20px;
+	widows: 40px;
+}
+
+.author{
+	color:#080808;
+	font-family: Tahoma;
+}
+
+.venue{
+	color:#080808;
+	font-style: italic;
+	font-family: Tahoma;
+}
+
+.article{
+	color:#000000;
+	font-size: 18;
+}
+
+.image{
+	height: 30px;
+	width:30px;
+}
+
+a:link { 
+color:#337ab7; 
+text-decoration:none; 
+} 
+
+a:hover { 
+	border-bottom: 1px dotted #000;
+color:#337adf; 
+text-decoration:none; 
+} 
+
+a:visited { 
+color:#337ab7; 
+text-decoration:none; 
+} 
+
+.category{
+	color:#000000;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.pdf{
+	font-size: 16px;
+	font-family: Times New Roman;
+}
