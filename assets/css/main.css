@@ -10,20 +10,21 @@ body {
 }
 
 .myicon {
-	width: 150;
-	float:left;
+	width: 150px;
+	float: left;
 	margin-right: 15px;
+	margin-bottom: 10px;
 }
 
 .sectiontitle {
 	font-size: 18px;
 	font-weight: bold;
+	clear: both;
 }
 
 .sectioncontent {
 	font-size: 17px;
 	font-weight: normal;
-
 }
 
 .date {
@@ -33,7 +34,7 @@ body {
 
 .me {
 	font-weight: bold;
-	text-decoration:underline
+	text-decoration: underline;
 }
 
 .email {
@@ -41,58 +42,73 @@ body {
 }
 
 .appicon {
-	width: 25;
+	width: 25px;
 }
 
-.new{
+.new {
 	height: 20px;
-	widows: 40px;
+	width: 40px;
 }
 
-.author{
-	color:#080808;
+.author {
+	color: #080808;
 	font-family: Tahoma;
 }
 
-.venue{
-	color:#080808;
+.venue {
+	color: #080808;
 	font-style: italic;
 	font-family: Tahoma;
 }
 
-.article{
-	color:#000000;
-	font-size: 18;
+.article {
+	color: #000000;
+	font-size: 18px;
 }
 
-.image{
+.image {
 	height: 30px;
-	width:30px;
+	width: 30px;
 }
 
-a:link { 
-color:#337ab7; 
-text-decoration:none; 
-} 
+a:link {
+	color: #337ab7;
+	text-decoration: none;
+}
 
-a:hover { 
+a:hover {
 	border-bottom: 1px dotted #000;
-color:#337adf; 
-text-decoration:none; 
-} 
+	color: #337adf;
+	text-decoration: none;
+}
 
-a:visited { 
-color:#337ab7; 
-text-decoration:none; 
-} 
+a:visited {
+	color: #337ab7;
+	text-decoration: none;
+}
 
-.category{
-	color:#000000;
+.category {
+	color: #000000;
 	font-weight: bold;
 	font-size: 17px;
 }
 
-.pdf{
+.pdf {
 	font-size: 16px;
 	font-family: Times New Roman;
+}
+
+#secintro {
+	font-weight: normal;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+@media (max-width: 600px) {
+	body {
+		margin: 2% 5% 2% 5%;
+	}
+	.myicon {
+		width: 120px;
+	}
 }
